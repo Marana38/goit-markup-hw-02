@@ -51,7 +51,7 @@ span {
     color: #2e2f42;
 }
 
-.nav-link:hover,
+.nav-link :hover,
 .nav-link-link:focus {
     color: #404bbf;
 }
@@ -65,11 +65,11 @@ span {
 
 /* --------------- -----------  */
 /* ---------------Hirow-----------  */
-.hirow {
+.hero {
     background-color: #2e2f42;
 }
 
-.hirow-title {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -77,13 +77,19 @@ span {
     color: #fff;
 }
 
-.hirow-scroi-btn {
+.hero-scroi-btn:hover,
+.hero-scroi-btn:focus {
+    background: #404bbf;
+}
+
+.hero-scroi-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
 }
 
 /* --------------- -----------  */
