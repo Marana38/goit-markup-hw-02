@@ -46,6 +46,10 @@ span {
     color: #404bbf;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
 
 
 .address-link {
@@ -83,8 +87,8 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+    cursor: pointer
 }
 
 /* --------------- -----------  */
@@ -159,7 +163,7 @@ span {
     color: #2e2f42;
 }
 
-.project-images-text {
+.project-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
